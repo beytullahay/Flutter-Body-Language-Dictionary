@@ -1,16 +1,42 @@
-# beden_dili_sozlugu
 
-A new Flutter project.
+## Screenshots
 
-## Getting Started
+Ana Sayfa                  |   Arama 1                 |  Arama 2                  |  Arama 3
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+<img src="https://user-images.githubusercontent.com/81561442/182872843-ba00a8da-1056-484b-8c16-0eac744b7603.jpg" width='450'>  | <img src="https://user-images.githubusercontent.com/81561442/182871852-1fb791cf-e160-4553-885c-059c5b6f2e80.jpg" width='450'> | <img src="https://user-images.githubusercontent.com/81561442/182873073-1fe80f1d-860c-4b6f-8006-d76a19ee5286.jpg" width='450'> | <img src="https://user-images.githubusercontent.com/81561442/182873395-3f7aacdc-98fb-4860-b747-f5e34394a07c.jpg" width='450'> 
+ 
+ 
+ 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+
+
+
+
+
+## MVVM Mimarisi
+```
+📂lib
+ └───main.dart  
+ └───📂models  
+ |   └── words_response.dart
+ |
+ └───📂pages
+ |   └── mean_list_page.dart
+ |
+ └───📂services
+ |   └── dictionary_service.dart
+ | 
+ └───📂viewmodels
+ |   |── meaning_list_view_model.dart
+ |   └── meaning_view_model.dart
+ |
+ └───📂widgets
+     |── mean_list.dart
+     └── sign_language.dart
+```
